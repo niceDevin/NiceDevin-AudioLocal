@@ -9,6 +9,22 @@ windows_qt/installer/AudioLocalSetup.exe
 # ===== 暂不纳入的目录（以后想加 web 版，删掉下面这行即可）=====
 web/
 
+# ===== 本地调查/临时文件（ffmpeg AAR 已由 Gradle 缓存管理）=====
+.tools_ffmpeg/
+
+# ===== Android（android_kotlin/，规则原在 android_kotlin/.gitignore，已上移统一管理）=====
+android_kotlin/local.properties
+android_kotlin/.idea/
+android_kotlin/.gradle/
+android_kotlin/build/
+android_kotlin/app/build/
+android_kotlin/captures/
+android_kotlin/keystore.properties
+# 以下通配符全仓库生效
+*.iml
+*.jks
+*.keystore
+
 # ===== 系统 / 日志 =====
 aqtinstall.log
 .DS_Store

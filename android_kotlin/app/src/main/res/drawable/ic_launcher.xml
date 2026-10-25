@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 暖白纸底圆角方块 -->
+    <path
+        android:fillColor="#F4F1EA"
+        android:pathData="M12,0 h84 a12,12 0 0 1 12,12 v84 a12,12 0 0 1 -12,12 h-84 a12,12 0 0 1 -12,-12 v-84 a12,12 0 0 1 12,-12 z" />
+    <!-- 铜橙音波形（三道弧） -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C2571A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M30,66 a14,14 0 0 1 0,-24 M42,76 a26,26 0 0 1 0,-44 M54,66 a14,14 0 0 1 0,-24" />
+</vector>
