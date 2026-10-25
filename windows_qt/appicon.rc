@@ -1,0 +1,3 @@
+// NiceDevin AudioLocal - application icon resource
+// The icon is a PNG-embedded ICO (Vista+ supported by rc.exe).
+IDI_APP ICON "appicon.ico"

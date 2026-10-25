@@ -1,0 +1,16 @@
+# ===== 构建产物 =====
+windows_qt/build/
+windows_qt/bin/ffmpeg.exe
+
+# ===== 安装包产物 =====
+windows_qt/installer/release/
+windows_qt/installer/AudioLocalSetup.exe
+
+# ===== 暂不纳入的目录（以后想加 web 版，删掉下面这行即可）=====
+web/
+
+# ===== 系统 / 日志 =====
+aqtinstall.log
+.DS_Store
+Thumbs.db
+Desktop.ini
